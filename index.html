@@ -3,133 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AUCA Campus Information</title>
+    <title>AUCA Campus Portal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<!-- NAVBAR -->
+<header class="header">
     <nav class="navbar">
-        <div class="logo">AUCA University</div>
+        <h2 class="logo">AUCA</h2>
 
-        <ul class="nav-links">
+        <ul class="nav-menu">
             <li><a href="#intro">Home</a></li>
 
             <li class="dropdown">
                 <a href="#">Campus ▾</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-content">
                     <li><a href="#services">Services</a></li>
                     <li><a href="#locations">Locations</a></li>
                 </ul>
             </li>
 
-            <li><a href="#announcements">Announcements</a></li>
-            <li><a href="#display">Display</a></li>
+            <li><a href="#announcements">Notices</a></li>
+            <li><a href="#display">Layout</a></li>
         </ul>
     </nav>
 </header>
 
-<main>
-
-<!-- INTRODUCTION -->
+<!-- INTRO -->
 <section id="intro" class="intro">
-    <h1>Welcome to AUCA</h1>
-    <p>
-        This campus information website helps AUCA students quickly find
-        important services, locations, and announcements.
-    </p>
+    <div class="intro-text">
+        <h1>Adventist University of Central Africa</h1>
+        <p>
+            This platform provides AUCA students with access to essential campus
+            services, locations, and official announcements.
+        </p>
 
-    <ul>
-        <li>Academic and student support services</li>
-        <li>Important AUCA campus locations</li>
-        <li>Official university announcements</li>
-        <li>Responsive and structured layouts</li>
-    </ul>
+        <ul>
+            <li>Academic & student services</li>
+            <li>Campus buildings & facilities</li>
+            <li>Important announcements</li>
+            <li>Responsive layout demonstrations</li>
+        </ul>
+    </div>
 </section>
 
-<!-- CAMPUS SERVICES -->
+<!-- SERVICES -->
 <section id="services" class="section">
-    <h2>AUCA Campus Services</h2>
-    <p>
-        AUCA provides various services to support students academically,
-        spiritually, and socially.
+    <h2 class="section-title">Campus Services</h2>
+    <p class="section-desc">
+        AUCA offers various services to support students academically and personally.
     </p>
 
-    <div class="service-cards">
-        <div class="card">
-            <h3>AUCA Library</h3>
-            <p>Study spaces, books, and online academic resources.</p>
+    <div class="services">
+        <div class="service-card">
+            <h3>📚 Library</h3>
+            <p>Books, research materials, and quiet study areas.</p>
         </div>
 
-        <div class="card">
-            <h3>Health Services</h3>
-            <p>Medical care and health guidance for students.</p>
+        <div class="service-card">
+            <h3>💻 IT Support</h3>
+            <p>Help with Moodle, email, and student portals.</p>
         </div>
 
-        <div class="card">
-            <h3>IT Support</h3>
-            <p>Assistance with Moodle, emails, and student systems.</p>
+        <div class="service-card">
+            <h3>🏥 Health Center</h3>
+            <p>Medical support and health consultations.</p>
         </div>
 
-        <div class="card">
-            <h3>Chaplaincy</h3>
-            <p>Spiritual support and counseling services.</p>
+        <div class="service-card">
+            <h3>⛪ Chaplaincy</h3>
+            <p>Spiritual guidance and counseling services.</p>
         </div>
     </div>
 </section>
 
-<!-- CAMPUS LOCATIONS / GALLERY -->
-<section id="locations" class="section">
-    <h2>AUCA Campus Locations</h2>
-    <p>
-        Explore some important locations around the AUCA campus.
+<!-- LOCATIONS -->
+<section id="locations" class="section light">
+    <h2 class="section-title">Campus Locations</h2>
+    <p class="section-desc">
+        Key facilities available at the AUCA campus.
     </p>
 
-    <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1562774053-701939374585" alt="University Building">
-        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b" alt="Library Building">
-        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="Lecture Hall">
+    <div class="locations">
+        <img src="02.jpg" alt="AUCA Building">
+        <img src="03.jpg" alt="Library">
+        <img src="01.jpg" alt="Lecture Hall">
     </div>
 </section>
 
 <!-- ANNOUNCEMENTS -->
 <section id="announcements" class="section">
-    <h2>Announcements & Notices</h2>
-    <p>
-        Stay updated with important AUCA announcements.
-    </p>
+    <h2 class="section-title">Announcements</h2>
 
-    <div class="announcement">
-        <strong>Registration Notice:</strong> Course registration closes on Friday.
+    <div class="notice">
+        <strong>📢 Registration Alert:</strong> Course registration closes this Friday.
+    </div>
+
+    <div class="notice secondary">
+        <strong>📝 Exams:</strong> Mid-semester exams start next month.
     </div>
 </section>
 
 <!-- STICKY NOTICE -->
-<div class="sticky-notice">
-    📢 AUCA Exams begin next month – prepare early!
+<div class="sticky-banner">
+    ⚠️ AUCA Students: Tuition deadline approaching!
 </div>
 
 <!-- DISPLAY BEHAVIOR -->
-<section id="display" class="section">
-    <h2>Display Behavior Demonstration</h2>
-    <p>
-        This section demonstrates different display and visibility behaviors.
+<section id="display" class="section light">
+    <h2 class="section-title">Display & Visibility</h2>
+    <p class="section-desc">
+        This section shows how elements behave differently across screen sizes.
     </p>
 
-    <div class="display-box">
-        <div class="visible-box">
-            This element is always visible
+    <div class="display-area">
+        <div class="box visible">
+            Always Visible
         </div>
 
-        <div class="hidden-box">
-            This element hides on small screens
+        <div class="box hide-mobile">
+            Hidden on Small Screens
         </div>
     </div>
 </section>
 
-</main>
-
-<footer>
+<!-- FOOTER -->
+<footer class="footer">
     <p>© 2026 Adventist University of Central Africa (AUCA)</p>
 </footer>
 
